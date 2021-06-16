@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+ <meta name="description" content="Webpage description goes here" />
+ <meta charset="utf-8">
+ <title>Change_me</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="author" content="">
+ <link rel="stylesheet" href="css/style.css">
+ <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+
+<body>
+ 
+<div class="container">
+
+    <input type="class" id="class" placeholder="Which class are you in?"> <br> <br>
+    <input type="subject" id="subject" placeholder="Which subject do you like"> <br> <br>
+    <input type="date" id="date" placeholder="calender"> <br> <br>
+    <button onclick="clickme()">Results</button> </div>
+    
+ 
+
+<script>
+      function clickme(){
+        var darasa= document.getElementById("class").value;
+        var subject=document.getElementById("subject").value;
+        var date=document.getElementById("date").value;
+        alert(`Hello you are in  ${darasa} you love ${subject} and here is when you enrolled to AkiraChix ${date}`) 
+    }
+
+</script>
+
+
+</body>
+</html>
